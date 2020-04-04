@@ -1,3 +1,3 @@
 # Мандаринкины сайты
 
-[Мой первый сайт](mandarinka10.github.io/myfirstsite/ "Нажимай")
+[Мой первый сайт](https://mandarinka10.github.io/myfirstsite "Нажимай")
