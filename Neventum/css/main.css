@@ -1,0 +1,948 @@
+/* Нужные нам цвета */
+/* Шрифты */
+@font-face {
+  font-family: 'MyriadPro-Light';
+  src: url('../fonts/MyriadPro-Light.eot'), url('../fonts/MyriadPro-Light.woff') format('woff'), url('../fonts/MyriadPro-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'MyriadPro-Semibold';
+  src: url('../fonts/MyriadPro-Semibold.eot'), url('../fonts/MyriadPro-Semibold.woff') format('woff'), url('../fonts/MyriadPro-Semibold.ttf') format('truetype');
+}
+/* Шаблон заголовкa */
+.title .heading {
+  font-family: 'MyriadPro-Semibold', sans-serif;
+  font-size: 100px;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+}
+/* Шапка профиля */
+main {
+  font-family: 'MyriadPro-Light', sans-serif;
+  font-weight: bold;
+}
+.header {
+  padding-top: 40px;
+}
+.header a {
+  font-size: 18px;
+  color: #121724;
+}
+.header a:hover {
+  text-decoration: none;
+  color: #00bff2;
+}
+/* Заголовок */
+.main-stands {
+  padding-top: 150px;
+  padding-bottom: 300px;
+}
+.main-stands .heading::after {
+  content: '';
+  width: 35px;
+  height: 35px;
+  background: #00bff2;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
+.main-stands p {
+  font-size: 25px;
+  text-align: center;
+  line-height: 1.1;
+  margin-top: 35px;
+}
+.main-stands .buttons {
+  text-align: center;
+  margin-top: 90px;
+}
+.main-stands .buttons button {
+  height: 55px;
+  width: 200px;
+  margin: 0 15px 0 15px;
+  font-size: 1.2rem;
+  background-color: #f0c01b;
+  color: #fff;
+  border: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.main-stands .buttons button:focus {
+  outline: none;
+}
+.main-stands button:hover {
+  background-color: #fff;
+  color: #00bff2;
+  border: 2px solid #00bff2;
+}
+/* 	Блок EASY */
+.main-easy {
+  box-shadow: -13px 14px 18px 6px rgba(0, 0, 0, 0.2);
+  padding-bottom: 200px;
+  padding-top: 100px;
+  margin-bottom: 80px;
+  background-color: #293140;
+}
+.main-easy .title {
+  color: #fff;
+  display: inline-block;
+}
+.main-easy .title .heading::after {
+  content: '';
+  width: 25px;
+  height: 25px;
+  background: #00bff2;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
+.main-easy .title .sub-heading {
+  margin-top: 20px;
+  font-size: 35px;
+}
+.main-easy .text p {
+  color: #7a7f88;
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 45px;
+}
+.main-easy .text a {
+  display: inline-block;
+  color: #00bff2;
+}
+.main-easy .text a:hover {
+  text-decoration: none;
+}
+.main-easy .text .triangle {
+  display: inline-block;
+  border: 4px solid transparent;
+  border-left: 7px solid #00bff2;
+  margin: 0;
+  margin-left: 25px;
+}
+.main-easy .easy-menu {
+  color: #fff;
+  padding-top: 130px;
+}
+.main-easy .easy-menu .num {
+  font-size: 25px;
+  display: inline-block;
+  border: 2px solid #00bff2;
+  background: #00bff2;
+  padding: 9px 11px;
+}
+.main-easy .easy-menu .name {
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 8px;
+}
+.main-easy .easy-menu .text {
+  font-family: 'MyriadPro-Light', sans-serif;
+  font-weight: bold;
+  color: #7a7f88;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 40px;
+}
+/* 	Наши контакты */
+.main-contacts {
+  background-color: #293140;
+  color: #fff;
+  padding: 50px 100px;
+  width: 100%;
+}
+.main-contacts .text-contacts {
+  padding-top: 70px;
+  font-size: 30px;
+  font-family: 'MyriadPro-Light', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.main-contacts .submain-contacts .contacts {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+.main-contacts .submain-contacts .contacts .contact {
+  border-left: 6px solid #00bff2;
+}
+.main-contacts .submain-contacts .contacts .contact .name {
+  font-size: 20px;
+  padding: 5px 10px 15px;
+}
+.main-contacts .submain-contacts .contacts .contact .text {
+  padding-left: 10px;
+  padding-bottom: 15px;
+  color: #7a7f88;
+  font-size: 19px;
+}
+.main-contacts .submain-contacts .contacts .number {
+  font-size: 21px;
+  padding: 15px 16px ;
+}
+.main-contacts .submain-contacts .contacts .social {
+  padding-left: 15px;
+}
+.main-contacts .submain-contacts .contacts .social .img-active {
+  height: 20px;
+  width: 20px;
+}
+.main-contacts .submain-contacts .contacts .social .img-active:last-child {
+  margin-left: 12px;
+  width: 27px;
+}
+.main-contacts .submain-contacts .contacts .social-selected {
+  display: none;
+}
+.main-contacts .submain-contacts :hover {
+  background-color: #fff;
+}
+.main-contacts .submain-contacts :hover .name,
+.main-contacts .submain-contacts :hover .number {
+  color: #121724;
+}
+.main-contacts .submain-contacts :hover .name .img-active,
+.main-contacts .submain-contacts :hover .number .img-active {
+  display: none;
+}
+.main-contacts .submain-contacts :hover .social-selected {
+  display: inline-block;
+  position: absolute;
+  padding-left: 15px;
+  margin-top: -23px;
+}
+.main-contacts .submain-contacts :hover .social-selected .img-selected {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+.main-contacts .submain-contacts :hover .social-selected .img-selected:last-child {
+  margin-left: 12px;
+  width: 27px;
+}
+/* Our experience  */
+.main-experience .excellent {
+  padding: 50px 0 50px;
+}
+.main-experience .excellent p {
+  text-align: center;
+  font-family: 'MyriadPro-Semibold', sans-serif;
+  color: #2c2c4b;
+  font-size: 20px;
+}
+.main-experience .excellent img {
+  width: 20px;
+}
+.main-experience .submain-experience {
+  box-shadow: -13px 14px 18px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background-color: #293140;
+}
+.main-experience .submain-experience .experience-slider {
+  padding: 60px 0;
+}
+.main-experience .submain-experience .experience-slider .men {
+  padding: 43px 0;
+}
+.main-experience .submain-experience .experience-slider .men img {
+  height: 100px;
+  width: 100px;
+}
+.main-experience .submain-experience .experience-slider .experience-inform .name {
+  text-align: left;
+  color: #00bff2;
+  font-size: 20px;
+}
+.main-experience .submain-experience .experience-slider .experience-inform .text {
+  margin-top: 40px;
+  text-align: left;
+  font-family: 'MyriadPro-Light', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 33px;
+}
+.main-experience .submain-experience .experience-slider .mini-text {
+  padding-left: 18px;
+}
+.main-experience .submain-experience .experience-slider .mini-text .Alberto {
+  border-left: 2px solid #00bff2;
+  padding: 3px 6px;
+  margin-top: 90px;
+}
+.main-experience .submain-experience .experience-slider .mini-text .Alberto .name {
+  color: #fff;
+  font-size: 12px;
+  text-align: left;
+}
+.main-experience .submain-experience .experience-slider .mini-text .Alberto .text {
+  color: #7a7f88;
+  font-size: 12px;
+  text-align: left;
+}
+.main-experience .submain-experience .experience-slider .next-btn {
+  padding: 9px;
+  width: 22px;
+  height: 22px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  background-color: #293140;
+  background: url(../img/right-arrow.png) center no-repeat;
+}
+.main-experience .submain-experience .experience-slider .next-btn:focus {
+  outline: none;
+}
+/* блок Сharacteristics */
+.main-characteristics {
+  padding-top: 200px;
+  font-family: 'MyriadPro-Semibold', sans-serif;
+  text-align: center;
+}
+.main-characteristics h3 {
+  color: #000;
+  font-size: 35px;
+}
+.main-characteristics .characteristics {
+  padding-top: 70px;
+}
+.main-characteristics .characteristics .characteristic {
+  padding-top: 40px;
+  margin-bottom: 40px;
+  min-height: 390px;
+}
+.main-characteristics .characteristics .characteristic img {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  height: 60px;
+}
+.main-characteristics .characteristics .characteristic .name {
+  font-family: 'MyriadPro-Semibold', sans-serif;
+  margin-bottom: 30px;
+  color: #000;
+  font-size: 60px;
+  display: block;
+  padding: 0;
+  text-align: center;
+}
+.main-characteristics .characteristics .characteristic .name::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: #00bff2;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
+.main-characteristics .characteristics .characteristic .text {
+  line-height: 1.5;
+}
+.main-characteristics .characteristics .other {
+  box-shadow: -13px 14px 18px 6px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  background-color: #2c2c4b;
+}
+.main-characteristics .characteristics .other img {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  height: 60px;
+}
+.main-characteristics .characteristics .other .name {
+  margin-bottom: 20px;
+  font-family: 'MyriadPro-Semibold', sans-serif;
+  color: #fff;
+  font-size: 60px;
+  display: block;
+  padding: 0;
+  text-align: center;
+}
+/* London */
+.main-london {
+  margin-top: 50px;
+  position: relative;
+}
+.main-london .left-btn {
+  z-index: 99;
+  padding: 9px;
+  width: 22px;
+  height: 22px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateX(100%);
+  background: url(../img/left-arrow.png) center no-repeat;
+}
+.main-london .left-btn:focus {
+  outline: none;
+}
+.main-london .right-btn {
+  padding: 9px;
+  width: 22px;
+  height: 22px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  background: url(../img/right-arrow.png) center no-repeat;
+}
+.main-london .right-btn:focus {
+  outline: none;
+}
+.main-london-slider-item {
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  background: url(../img/bg-london.png) center no-repeat;
+}
+.main-london-slider-item h4 {
+  transform: translateX(50%);
+  width: 50%;
+  padding: 10px 0 6px;
+  margin-top: 150px;
+  margin-bottom: 60px;
+  background-color: #fff;
+  font-family: 'MyriadPro-Semibold', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.main-london-slider-item .text {
+  color: #fff;
+  font-size: 23px;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+.main-london-slider-item button {
+  border: none;
+  border-radius: 30px;
+  background-color: #00bff2;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 20px 65px;
+  margin-bottom: 100px;
+}
+.main-london-slider-item button:focus {
+  outline: none;
+}
+/* Appications&Articles */
+.main-last {
+  margin-bottom: 100px;
+}
+.main-last h4 {
+  margin-left: 40px;
+  font-family: 'MyriadPro-Semibold', sans-serif;
+  color: #1a202d;
+  font-size: 28px;
+}
+.main-last .text {
+  line-height: 1.5;
+  font-size: 14px;
+  color: #a5a6a9;
+}
+.application .mini-applicaions {
+  text-align: center;
+}
+.application .mini-applicaions .mini-applicaion {
+  box-shadow: -13px 14px 18px 6px rgba(0, 4, 6, 0.1);
+  margin: 40px 5px 100px;
+  width: 120px;
+  height: 130px;
+  display: inline-block;
+  background-color: #293140;
+}
+.application .mini-applicaions .mini-applicaion img {
+  height: 30px;
+  margin-top: 45px;
+}
+.application .mini-applicaions .mini-applicaion p {
+  margin-top: 10px;
+  color: #7a7f88;
+}
+.application .mini-applicaions .mini-applicaion:hover {
+  box-shadow: -13px 14px 18px 6px rgba(0, 191, 243, 0.1);
+  background-color: #00bff2;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  margin-right: 16px;
+  margin-left: 16px;
+}
+.application .mini-applicaions .mini-applicaion:hover img {
+  height: 25px;
+}
+.application .mini-applicaions .mini-applicaion:hover p {
+  font-size: 22px;
+  color: #fff;
+}
+.application .link {
+  margin-left: 170px;
+}
+.application .link a {
+  color: #00bff2;
+}
+.application .link a:hover {
+  text-decoration: none;
+  color: #00bff2;
+}
+.application .triangle {
+  display: inline-block;
+  border: 4px solid transparent;
+  border-left: 7px solid #00bff2;
+  margin: 0;
+  margin-left: 50px;
+}
+.documents {
+  margin-top: 150px;
+}
+.documents h4 {
+  margin-left: 10px;
+}
+.documents .text {
+  margin-top: 35px;
+  margin-left: 10px;
+}
+.papers {
+  margin-top: 150px;
+}
+.papers .paper {
+  margin-bottom: 70px;
+}
+.papers .paper .square {
+  margin: 10px 30px 40px 0;
+  float: left;
+  background-color: #293140;
+  height: 60px;
+  width: 40px;
+}
+.papers .paper .white_paper {
+  margin-top: 20px;
+}
+.papers .paper .white_paper .name {
+  font-family: 'MyriadPro-Semibold', sans-serif;
+}
+.papers .paper .white_paper .text {
+  margin-top: 20px;
+}
+.articles h4 {
+  margin-bottom: 40px;
+}
+.articles .changes {
+  box-shadow: -13px 14px 18px 6px rgba(0, 4, 6, 0.1);
+  background-color: #293140;
+  padding: 120px 90px 30px 80px;
+}
+.articles .changes .time {
+  margin-bottom: 7px;
+  color: #9498a0;
+  font-size: 18px;
+}
+.articles .changes .text {
+  color: #fff;
+  font-size: 19px;
+}
+.articles .changes .mini-text {
+  line-height: 1.5;
+  color: #8d8f94;
+  font-size: 16px;
+}
+.articles .changes .change_2 {
+  margin-top: 160px;
+}
+.articles .changes .change_3 {
+  margin-top: 80px;
+}
+.footer {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  background-color: #f6f8fc;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.footer-menu {
+  text-align: right;
+}
+.footer-menu p {
+  margin: 0px 0px 0px 16px;
+  display: inline-block;
+  font-family: 'MyriadPro-Semibold', sans-serif;
+  font-size: 15px;
+}
+/* Адаптация */
+@media (max-width: 1190px) {
+  .header a {
+    font-size: 16px;
+  }
+  /* 	Блок EASY */
+  .main-easy {
+    padding-bottom: 100px;
+  }
+  .main-easy .easy-menu .name {
+    font-size: 18px;
+  }
+  /* блок Сharacteristics */
+  .main-characteristics .characteristics .characteristic .name {
+    font-size: 52px;
+  }
+  .main-characteristics .characteristics .other .name {
+    font-size: 52px;
+  }
+  .papers .paper {
+    margin-bottom: 40px;
+  }
+  .papers .paper .square {
+    margin: 10px 30px 90px 0;
+  }
+  .papers .paper .white_paper {
+    margin-top: 20px;
+  }
+  .articles .changes {
+    padding: 100px 90px 30px 80px;
+  }
+  .articles .changes .change_2 {
+    margin-top: 160px;
+  }
+  .articles .changes .change_3 {
+    margin-top: 50px;
+  }
+  .footer-menu p {
+    margin: 0 0 0 10px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 991px) {
+  /* Шапка профиля */
+  .header {
+    text-align: center;
+  }
+  .header a {
+    font-size: 18px;
+  }
+  /* Заголовок */
+  .main-stands {
+    text-align: center;
+  }
+  /* 	Блок EASY */
+  .main-easy {
+    padding-bottom: 100px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+  }
+  .main-easy .title {
+    text-align: center;
+  }
+  .main-easy .title .sub-heading {
+    margin: 20px 20px 0;
+  }
+  .main-easy .text {
+    text-align: center;
+  }
+  .main-easy .text p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .main-easy .easy-menu {
+    margin-left: 50px;
+    padding-top: 60px;
+  }
+  .main-easy .easy-menu .num {
+    font-size: 20px;
+    padding: 9px 11px;
+  }
+  .main-easy .easy-menu .name {
+    display: inline-block;
+    font-size: 23px;
+  }
+  .main-easy .easy-menu .text {
+    text-align: left;
+    margin-top: 10px;
+  }
+  /* 	Наши контакты */
+  .main-contacts {
+    padding: 50px 100px;
+  }
+  .main-contacts .text-contacts {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 38px;
+  }
+  .main-contacts .submain-contacts .contacts {
+    margin-top: 30px;
+  }
+  .main-contacts .submain-contacts .contacts .contact .name {
+    font-size: 25px;
+  }
+  .main-contacts .submain-contacts .contacts .contact .text {
+    font-size: 21px;
+  }
+  .main-contacts .submain-contacts .contacts .number {
+    font-size: 23px;
+  }
+  /* Our experience  */
+  .main-experience .excellent {
+    padding: 50px 0 50px;
+  }
+  .main-experience .excellent p {
+    text-align: center;
+    font-family: 'MyriadPro-Semibold', sans-serif;
+    color: #2c2c4b;
+    font-size: 20px;
+  }
+  .main-experience .excellent img {
+    width: 20px;
+  }
+  .main-experience .submain-experience .experience-slider {
+    padding: 50px 0;
+  }
+  .main-experience .submain-experience .experience-slider .men img {
+    height: 90px;
+    width: 90px;
+  }
+  .main-experience .submain-experience .experience-slider .experience-inform .text {
+    font-size: 28px;
+  }
+  .main-experience .submain-experience .experience-slider .mini-text .Alberto .text {
+    margin-top: 6px;
+    font-size: 11px;
+  }
+  /* блок Сharacteristics */
+  .main-characteristics {
+    padding-top: 100px;
+  }
+  .main-characteristics .characteristics {
+    padding-top: 60px;
+  }
+  .main-characteristics .characteristics .characteristic {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    min-height: 390px;
+  }
+  .main-characteristics .characteristics .characteristic img {
+    margin-top: 50px;
+  }
+  .main-characteristics .characteristics .other img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 60px;
+  }
+  /* Appications&Articles */
+  .main-last h4 {
+    text-align: center;
+  }
+  .application {
+    margin-top: 70px;
+  }
+  .application .link {
+    display: none;
+  }
+  .documents {
+    margin-top: 0;
+  }
+  .documents h4 {
+    margin-left: 0px;
+  }
+  .documents .text {
+    margin-top: 35px;
+    margin-left: 40px;
+  }
+  .papers {
+    margin-top: 50px;
+  }
+  .papers .paper {
+    margin-bottom: 0px;
+  }
+  .papers .paper .square {
+    margin: 10px 30px 40px 0;
+    float: left;
+  }
+  .papers .paper .white_paper {
+    margin-top: 20px;
+  }
+  .papers .paper .white_paper .name {
+    font-family: 'MyriadPro-Semibold', sans-serif;
+  }
+  .papers .paper .white_paper .text {
+    margin-top: 0px;
+  }
+  .articles {
+    margin-top: 50px;
+  }
+  .articles h4 {
+    margin-bottom: 20px;
+  }
+  .articles .changes {
+    padding: 90px 70px 30px 80px;
+  }
+}
+@media (max-width: 767px) {
+  /* Шапка профиля */
+  .header a {
+    font-size: 16px;
+  }
+  /* Заголовок */
+  .main-stands {
+    padding-bottom: 200px;
+  }
+  /* 	Блок EASY */
+  .main-easy {
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
+  .main-easy .title {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .main-easy .text p {
+    margin: 35px 50px;
+  }
+  .main-easy .easy-menu {
+    padding-top: 90px;
+  }
+  .main-easy .easy-menu .text {
+    margin-top: 15px;
+  }
+  /* 	Наши контакты */
+  .main-contacts {
+    padding: 20px 70px;
+  }
+  .main-contacts .text-contacts {
+    padding-top: 50px;
+    font-size: 35px;
+  }
+  .main-contacts .submain-contacts .contacts .contact .name {
+    font-size: 21px;
+  }
+  .main-contacts .submain-contacts .contacts .contact .text {
+    font-size: 17px;
+  }
+  .main-contacts .submain-contacts .contacts .number {
+    font-size: 18px;
+  }
+  .main-contacts .submain-contacts .contacts .social .img-active {
+    height: 18px;
+    width: 18px;
+  }
+  .main-contacts .submain-contacts :hover .social-selected .img-selected {
+    height: 18px;
+    width: 18px;
+  }
+  /* Our experience  */
+  .main-experience .excellent {
+    padding: 45px;
+  }
+  .main-experience .excellent p {
+    font-size: 18px;
+  }
+  .main-experience .submain-experience .experience-slider {
+    margin-left: 40px;
+  }
+  .main-experience .submain-experience .experience-slider .men img {
+    margin-top: 20px;
+    height: 90px;
+    width: 90px;
+  }
+  .main-experience .submain-experience .experience-slider .experience-inform .name {
+    margin-top: 20px;
+  }
+  .main-experience .submain-experience .experience-slider .experience-inform .text {
+    margin-top: 40px;
+    font-size: 29px;
+  }
+  .main-experience .submain-experience .experience-slider .mini-text .Alberto {
+    margin-top: 70px;
+  }
+  .main-experience .submain-experience .experience-slider .mini-text .Alberto .name {
+    font-size: 13px;
+  }
+  /* блок Сharacteristics */
+  .main-characteristics {
+    padding-top: 100px;
+  }
+  .main-characteristics .characteristics {
+    padding-top: 0px;
+  }
+  .main-characteristics .characteristics .characteristic {
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+  .main-characteristics .characteristics .characteristic img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .main-characteristics .characteristics .characteristic .name {
+    margin-bottom: 10px;
+  }
+  .main-characteristics .characteristics .other img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 60px;
+  }
+  .main-characteristics .characteristics .other .name {
+    margin-bottom: 10px;
+  }
+  /* London */
+  .main-london {
+    margin-top: 70px;
+  }
+  .main-london-slider-item {
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+  }
+  .main-london-slider-item .text {
+    font-size: 19px;
+    margin-bottom: 70px;
+  }
+  /* Appications&Articles */
+  .main-last {
+    margin-bottom: 70px;
+  }
+  .documents {
+    margin-top: 0;
+  }
+  .documents .text {
+    margin-top: 25px;
+    margin-left: 48px;
+  }
+  .papers {
+    margin-top: 40px;
+  }
+  .papers .paper {
+    margin-bottom: 50px;
+  }
+  .papers .paper .white_paper {
+    margin-top: 10px;
+  }
+  .papers .paper .white_paper .text {
+    margin-top: 10px;
+  }
+  .articles {
+    margin-top: 80px;
+  }
+  .articles .changes .change_3 {
+    margin-bottom: 60px;
+  }
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .footer img {
+    height: 20px;
+    width: 120px;
+  }
+  .footer-menu {
+    margin-top: 10px;
+  }
+  .footer-menu p {
+    margin: 0 0 0 6px;
+    display: inline-block;
+    font-family: 'MyriadPro-Semibold', sans-serif;
+    font-size: 15px;
+  }
+}
