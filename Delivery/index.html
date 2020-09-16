@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Raw Graphics</title>
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fonts/mistral.ttf">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"
+	>
+	<link rel="stylesheet" type="text/css" href="css/reset.min.css">
+	<script type="text/javascript" src="js/main.js" defer></script>
+
+	<!-- slick -->
+	<link rel="stylesheet" href="slick/slick.css"/>
+	<link rel="stylesheet" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<main>
+
+	<div class="banner">
+		<div class="container">
+
+<!-- Верхнее меню -->
+			<div class="header">
+				<div class="logo col-md-2"><img src="img/header-logo.png" alt="">
+				</div>
+				<div class="menu col-md-5 col-md-offset-3">
+					<a href="#">Home</a>
+					<a href="#">About</a>
+					<a href="#">Services</a>
+					<a href="#">Portfolio</a>
+					<a href="#">Blog</a>
+				</div>
+				<button class="col-md-2">Contact Me</button>
+			</div>
+
+<!-- Заголовок -->
+			<div class="header-main">
+				<p class="text">Hi Myself <span>Jhon Smith</span></p>
+				<h1>Professional Graphic Designer</h1>
+				<p class="mini-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered <br>alteration in some form, by injected humour,</p>
+				<button>About Me</button>
+				<button>Download CV</button>
+				<img src="img/banner-men.jpg">
+			</div>
+
+		</div>
+	</div>
+	
+	<div class="container">
+		<!-- About me -->
+			<div class="about_me">
+				<div class="about_me-text col-md-8">
+					<p class="text">About Me</p>
+					<div class="underline"></div>
+					<div class="text-with-border">
+						<h2>Creative Graphic Designer</h2>
+						<div class="text-bottom-border"></div>
+					</div>
+					<div class="text-with-border"> 
+					<h2>Create Awesome Project As You Need</h2>
+					<div class="text-bottom-border"></div>
+					</div>
+					<p class="mini-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in <br>some form, by injected humour, or randomised words which don't look even slightly believable.If you are <br>going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.</p>
+				</div>
+				<div class="about_me-circle col-md-4">
+					<div class="circle c1">
+						<div class="text_num">
+							<p class="num n1">125+</p>
+							<p class="text t1">Active Client</p>
+						</div>
+					</div>
+					<div class="circle c2">
+						<div class="text_num">
+							<p class="num n2">605+</p>
+							<p class="text t2">Client Feedback</p>
+						</div>
+					</div>
+					<div class="circle c3">
+						<div class="text_num">
+							<p class="num n3">800+</p>
+							<p class="text t3">Project Complete</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+
+
+<!-- MY PROVIDE SERVICES -->
+	<div class="my_provide">
+		<div class="container">
+			<div class="header" >
+				<div class="text">
+					<h2>My Provide Services</h2>
+					<div class="underline"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="blog blog_mr col-md-4">
+					<img src="img/icon1.png" alt="">
+					<p class="name">Graphic Design</p>
+					<p class="mini-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+				</div>
+				<div class="blog blog_mr col-md-4">
+					<img src="img/icon2.png" alt="">
+					<p class="name">SEO Marketing</p>
+					<p class="mini-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+				</div>
+				<div class="blog col-md-4">
+					<img src="img/icon3.png" alt="">
+					<p class="name">Data Analysis</p>
+					<p class="mini-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="blog blog_mr col-md-4">
+					<img src="img/icon4.png" alt="">
+					<p class="name">Digital Marketing</p>
+					<p class="mini-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+				</div>
+				<div class="blog blog_mr col-md-4">
+					<img src="img/icon5.png" alt="">
+					<p class="name">Video Editing</p>
+					<p class="mini-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+				</div>
+				<div class="blog col-md-4">
+					<img src="img/icon6.png" alt="">
+					<p class="name">Photography</p>
+					<p class="mini-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="software_skill">
+		<div class="container">
+			<div class="name" >
+				<div class="text">
+					<h2>Software skill</h2>
+					<div class="underline"></div>
+				</div>
+			</div>
+			
+			<div class="sliders">
+				<div class="slider col-md-5">
+					<p class="name">Photoshop</p>
+					<output for="slider1" id="percent1">92%</output>
+					<input type="range" id="slider1" min="0" max="100" value="92" step="1" oninput="outputUpdate1(value)">
+				</div>
+				<div class="slider col-md-5 col-md-offset-2">
+					<p class="name">Html</p>
+					<output for="slider2" id="percent2">90%</output>
+					<input type="range" id="slider2" min="0" max="100" value="90" step="1" oninput="outputUpdate2(value)">
+				</div>
+				<div class="slider col-md-5">
+					<p class="name">Illustrator</p>
+					<output for="slider3" id="percent3">85%</output>
+					<input type="range" id="slider3" min="0" max="100" value="85" step="1" oninput="outputUpdate3(value)">
+				</div>
+				<div class="slider col-md-5 col-md-offset-2">
+					<p class="name">CSS</p>
+					<output for="slider4" id="percent4">85%</output>
+					<input type="range" id="slider4" min="0" max="100" value="85" step="1" oninput="outputUpdate4(value)">
+				</div>
+				<div class="slider col-md-5">
+					<p class="name">After Effect</p>
+					<output for="slider5" id="percent5">97%</output>
+					<input type="range" id="slider5" min="0" max="100" value="97" step="1" oninput="outputUpdate5(value)">
+				</div>
+				<div class="slider col-md-5 col-md-offset-2">
+					<p class="name">Javasccript</p>
+					<output for="slider6" id="percent6">72%</output>
+					<input type="range" id="slider6" min="0" max="100" value="72" step="1" oninput="outputUpdate6(value)">
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+<!-- LATEST PROJECT -->
+	<div class="container">
+		<div class="latest_project">
+			<div class="name">
+				<h1>Latest Project</h1>
+				<div class="underline"></div>
+			</div>
+			<div class="links">
+				<a href="#">All</a>
+				<a href="#">Graphic Design</a>
+				<a href="#">Web development</a>
+				<a href="#">Video Editing</a>
+				<a href="#">Photography</a>
+				<a href="#">Others</a>
+			</div>
+			<div class="row">
+				<div class="row1">
+					<img class="mini-table col-md-4 left-img" src="img/1.jpg" alt="фото">
+					<div class="mini-table mini-table-text col-md-4 left-img">
+						<h4>Project Name</h4>
+						<h5>Client : Rodex Group</h5>
+						<p class="mini-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+						<p class="stars">
+							Rating: 
+								<span>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+								</span>
+						</p>
+					</div>
+					<img class="mini-table col-md-4" src="img/2.jpg" alt="фото">
+				</div>
+				<div class="row2">
+					<img class="mini-table col-md-4 left-img" src="img/4.jpg" alt="фото">
+					<img class="mini-table col-md-4 left-img" src="img/3.jpg" alt="фото">
+					<img class="mini-table col-md-4" src="img/5.jpg" alt="фото">
+				</div>
+			</div>
+		</div>
+
+
+		<!-- CLIENT FEEDBACK -->
+		<div class="feedback-header">
+			<div class="text">
+				<div class="header-name">
+					<h2>Client Feedback</h2>
+					<div class="underline"></div>
+				</div>
+			</div>
+
+			<div class="feedback-content">
+				<div class="row row1">
+					<img src="img/ковычки.png">
+					<p class="text">It uses a dictionary of over 200 Latin words, combined with a <br>handful of model sentence structures, to generate Lorem Ipsum <br> which looks reasonable. </p>
+						<img  class="avatar" src="img/avatar1.png" alt="">
+						<div class="name">
+							<p class="mini-name">Fanchous Baltasi</p>
+							<p class="mini-text">Boss</p>
+							<p class="sign">Fanchous.B</p>
+						</div>
+				</div>
+				<div class="row row2">
+					<img src="img/ковычки.png">
+					<p class="text">It uses a dictionary of over 200 Latin words, combined with a <br>handful of model sentence structures, to generate Lorem Ipsum <br> which looks reasonable. </p>
+						<img  class="avatar" src="img/avatar2.png" alt="">
+						<div class="name">
+							<p class="mini-name">Milash Khabib</p>
+							<p class="mini-text">mini-Boss</p>
+							<p class="sign">Milash.KH</p>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="contacts">
+		<div class="row1 col-md-5">
+			<img src="img/contacts.jpg" alt="">
+		</div>
+		<div class="row2 col-md-6 col-md-offset-1">
+			<p class="mini-text">We give solution</p>
+			<div class="mini-underline"></div>
+			<div class="text">
+				<div class="header-name">
+					<h2>If you have any questions</h2>
+					<div class="underline"></div>
+				</div>
+			</div>
+			<div class="text">
+				<div class="header-name">
+					<h2>please don't hesitate to contact us</h2>
+					<div class="underline"></div>
+				</div>
+			</div>
+			<div class="inputs">
+				<input class="input-name" type="text" placeholder="Name">
+				<input class="input-email" type="text" placeholder="Email Adderes">
+				<textarea class="input-message" rows="5" type="text" placeholder="Message"></textarea>
+			</div>
+			<button>Send Message</button>
+		</div>
+	</div>
+
+
+<!-- LATEST NEWS -->
+	<div class="container">
+		<div class="latest_news">
+			<div class="latest_news-header">
+				<div class="text">
+					<div class="header-name">
+						<h2>Latest news</h2>
+						<div class="underline"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="row1 col-md-4 ">
+					<div class="roww">
+						<img src="img/news1.jpg" alt="">
+						<div class="mini-name">
+							<p class="profile-name col-md-6 ">
+							<span>
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</span>Milash Khabib</p>
+							<p class="profile-date col-md-6 ">
+							<span>
+								<i class="fa fa-calendar" aria-hidden="true"></i>
+							</span> 4 June, 20</p>
+						</div>
+						<p class="name col-md-12">Sometimes on purpose injecteded.</p>
+						<p class="text col-md-12">There are many variations of passages of Lorem Ipsum available.</p>
+						<a class="mini-text col-md-12">Contiune Reading...</a>
+					</div>
+				</div>
+
+				<div class="row2 col-md-4 ">
+					<div class="roww">
+						<img src="img/news2.jpg" alt="">
+						<div class="mini-name">
+							<p class="profile-name col-md-6 ">
+							<span>
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</span>
+							Fanchous Baltasi</p>
+							<p class="profile-date col-md-6 ">
+							<span>
+								<i class="fa fa-calendar" aria-hidden="true"></i>
+							</span> 9 August, 20</p>
+						</div>
+						<p class="name col-md-12">Sometimes on purpose injecteded.</p>
+						<p class="text col-md-12">There are many variations of passages of Lorem Ipsum available.</p>
+						<a class="mini-text col-md-12">Contiune Reading...</a>
+					</div>
+				</div>
+
+				<div class="row3 col-md-4 ">
+					<div class="roww">
+						<img src="img/news3.jpg" alt="">
+						<div class="mini-name">
+							<p class="profile-name col-md-6 ">
+							<span>
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</span>Conrad Hegarty</p>
+							<p class="profile-date col-md-6 ">
+							<span>
+								<i class="fa fa-calendar" aria-hidden="true"></i>
+							</span> 26 June, 19</p>
+						</div>
+						<p class="name col-md-12">Sometimes on purpose injecteded.</p>
+						<p class="text col-md-12">There are many variations of passages of Lorem Ipsum available.</p>
+						<a class="mini-text col-md-12">Contiune Reading...</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- OUR CLIENT -->
+		<div class="our_client">
+			<div class="row">
+				<img class="img1" src="img/client1.png" alt="">
+				<img class="img2" src="img/client2.png" alt="">
+				<img class="img3" src="img/client3.png" alt="">
+				<img class="img4" src="img/client4.png" alt="">
+				<img class="img5" src="img/client5.png" alt="">
+			</div>
+		</div>
+
+	</div>
+
+	<!-- FOOTER -->
+			<div class="footer">
+				<div class="row">
+					<div class="footer-header">
+						<div class="logo col-md-3 col-md-offset-1">
+							<img src="img/Logo.png" alt="">
+							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+						</div>
+						<div class="links-name col-md-offset-1 col-md-2">
+							<h4>Quick Link</h4>
+							<a href="">Home</a>
+							<br>
+							<br>
+							<a href="">About</a>
+							<br>
+							<br>
+							<a href="">Services</a>
+							<br>
+							<br>
+							<a href="">Portfolio</a>
+							<br>
+							<br>
+							<a href="">Blog</a>
+						</div>
+						<div class="links-name col-md-2">
+							<h4>About Me</h4>
+							<a href="">Services Policy</a>
+							<br>
+							<br>
+							<a href="">Terms & Condition</a>
+							<br>
+							<br>
+							<a href="">Online Agreement</a>
+							<br>
+							<br>
+							<a href="">Privacy Policy </a>
+							<br>
+							<br>
+							<a href="">Copyright Issue</a>
+						</div>
+						<div class="links-name col-md-3">
+							<h4>News Letter</h4>
+							 <div class="search">
+							  <input type="text" placeholder="Email Address" >
+							  <input type="submit" value="">
+							  <i class="fa fa-location-arrow" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+					
+				<div class="long-line"></div>
+
+				<div class="mini-footer">
+					<p class="copyright col-md-3 col-md-offset-1">Copyright ©Raw Graphics  All rights reserved.</p>
+					<div class="payment col-md-3 col-md-offset-5">
+						<p class="pay">Payment Method :</p>
+						<img src="img/skrill.png" alt="">
+						<img src="img/MasterCard.png" alt="">
+						<img src="img/Visa.png" alt="">
+					</div>
+				</div>
+			</div>
+			
+
+
+	
+</main>
+
+<script type="text/javascript">
+	function outputUpdate1 (vol) {
+		var output = document.getElementById('percent1');
+		output.value = vol + "%";
+		output.style.left = vol + "%";
+
+	}
+	function outputUpdate2 (vol) {
+		var output = document.getElementById('percent2');
+		output.value = vol + "%";
+		output.style.left = vol + "%";
+	}
+
+	function outputUpdate3 (vol) {	
+	var output = document.getElementById('percent3');
+	output.value = vol + "%";
+	output.style.left = vol + "%";
+}
+
+	function outputUpdate4 (vol) {
+		var output = document.getElementById('percent4');
+		output.value = vol + "%";
+		output.style.left = vol + "%";
+	}
+
+	function outputUpdate5 (vol) {
+		var output = document.getElementById('percent5');
+		output.value = vol + "%";
+		output.style.left = vol + "%";
+	}
+
+	function outputUpdate6 (vol) {
+		var output = document.getElementById('percent6');
+		output.value = vol + "%";
+		output.style.left = vol + "%";
+	}
+
+</script>
+
+<!-- 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+
+	<script type="text/javascript">
+		$('.experience-slider').slick({
+			prevArrow: '<button type="button" class="next-btn"></button>',
+		  nextArrow: '<button type="button" class="next-btn"></button>'
+		});
+
+		$('.main-london-slider').slick({
+			prevArrow: '<button type="button" class="left-btn"></button>',
+		  nextArrow: '<button type="button" class="right-btn"></button>'
+		});
+
+	</script> -->
+	
+</body>
+
+</html>
